@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+    font-family: 'Lora', serif;
+    background-color: var(--grey-color);
+}
+:root{
+    --grey-color:#303841;
+    --torq-color:#00ADB5;
+    --white-color:#EEEEEE;
+    --orange-color:#FF5722;
+}
+.navigation {
+    background-color: var(--torq-color);
+    padding: 1rem;
+    border-radius: 00.5rem;
+    color: var(--white-color);
+    font-size: larger;
+}
+.navigation .nav-pills{
+    text-align:center;
+    color: var(--orange-color);
+}
+/** Lists **/
+.list-non-bullet{
+    list-style:none;
+}
+.list-inline{
+    display:inline;
+    padding:0rem 1rem;
+    
+}
+.navigation .ul{
+    padding-inline-start:0px;
+}
+.heading{
+    margin-left: 30%;
+    padding: 1rem;
+    display:block;
+    display: 300px;
+    align-self: center;
+    background-color: var(--orange-color);
+    margin-right: 45%;
+    border-radius: 2rem;
+    color: var(--white-color);
+
+}
+.link{
+    text-decoration:none;
+    padding:0.5rem 1rem;
+    color: var(--grey-color);
+}
+.angle-input{
+    margin-left: 30%;
+    display: flex;
+    padding: 1 rem;
+    width: 30%;
+    height: 1rem;
+    margin-top:0.8rem;
+}
+.label{
+    margin-left: 30%;
+    margin-top:0.8rem;
+    margin-bottom:0.8rem;
+    color: var(--orange-color);
+    
+}
+.butt{
+    margin-left: 30%;
+    margin-top:1rem;
+    size:1.5rem;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+    font-family: 'Lora', serif;
+    background-color: var(--torq-color);
+    color:var(--grey-color);
+}
+.out{
+    margin-left: 30%;
+    margin-top:0.8rem;
+    margin-bottom:0.8rem;
+    color: var(--orange-color);
+}
