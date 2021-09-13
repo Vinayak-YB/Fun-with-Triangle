@@ -39,7 +39,7 @@ body{
     display: 300px;
     align-self: center;
     background-color: var(--orange-color);
-    margin-right: 55%;
+    margin-right: 53.5%;
     border-radius: 2rem;
     color: var(--white-color);
 
@@ -49,20 +49,12 @@ body{
     padding:0.5rem 1rem;
     color: var(--grey-color);
 }
-.angle-input{
-    margin-left: 30%;
-    display: flex;
-    padding: 1 rem;
-    width: 30%;
-    height: 1rem;
-    margin-top:0.8rem;
-}
-.label{
-    margin-left: 30%;
-    margin-top:0.8rem;
-    margin-bottom:0.8rem;
-    color: var(--orange-color);
-    
+.question-container{
+    margin: auto;
+    padding: 1rem;
+    color: var(--white-color);
+    margin-left: 29%;
+    font-size: larger;
 }
 .butt{
     margin-left: 30%;
