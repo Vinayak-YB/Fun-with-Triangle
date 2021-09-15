@@ -1,7 +1,7 @@
 const quizForm = document.querySelector(".quiz-form");
 const submitAnswerBtn = document.getElementById("submit-answer-btn");
 const outputEl = document.getElementById("output");
-const correctAnswers = ["90", "Right"];
+const correctAnswers = ["90", "Right","Obtuse","Acute","Equilateral","Scalene"];
 
 function calculateScore() {
     let score = 0;
